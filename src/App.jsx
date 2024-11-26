@@ -20,14 +20,14 @@ function App() {
     <div>
       <h1 style={{textAlign: 'center',padding: '10PX 0 0 0',color: 'tomato'}}>FRIEND'S KITCHEN</h1>
       <Routes>
-        <Route path='/home' element={<Home/>}></Route>
-        <Route path='/' element={<Navigator to = '/home'></Navigator>}></Route>
-        <Route path='/weekend' element={<WeekendSpecial/>}></Route>
-        <Route path='/burger' element={<MenuList image={burger} list={BurgerObject} name={'Burger'}/>}></Route>
-        <Route path='/pizza' element={<MenuList image={pizza} list={BurgerObject} name={'Pizza'}/>}></Route>
-        <Route path='/sandwich' element={<MenuList image={sandwich} list={BurgerObject} name={'3 Layer Sandwich'}/>}></Route>
-        <Route path='/wrap' element={<MenuList image={wrap} list={BurgerObject} name={'Wrap'}/>}></Route>
-        <Route path='/momos' element={<MenuList image={momos} list={momosObject} name={'Momos'}/>}></Route>
+        <Route path='/friendsKitchen/home' element={<Home/>}></Route>
+        <Route path='/friendsKitchen/' element={<Home/>}></Route>
+        <Route path='/friendsKitchen/weekend' element={<WeekendSpecial/>}></Route>
+        <Route path='/friendsKitchen/burger' element={<MenuList image={burger} list={BurgerObject} name={'Burger'}/>}></Route>
+        <Route path='/friendsKitchen/pizza' element={<MenuList image={pizza} list={BurgerObject} name={'Pizza'}/>}></Route>
+        <Route path='/friendsKitchen/sandwich' element={<MenuList image={sandwich} list={BurgerObject} name={'3 Layer Sandwich'}/>}></Route>
+        <Route path='/friendsKitchen/wrap' element={<MenuList image={wrap} list={BurgerObject} name={'Wrap'}/>}></Route>
+        <Route path='/friendsKitchen/momos' element={<MenuList image={momos} list={momosObject} name={'Momos'}/>}></Route>
       </Routes>
       <ExtraItems/>
       <Nav/>
