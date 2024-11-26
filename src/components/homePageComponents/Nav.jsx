@@ -12,7 +12,7 @@ function Nav() {
   return (
     <div className='navContainer' >
       <ul className='nav'>
-        <div className={`icon ${homeActive}`}><Link to = '/home' onClick={() => { setHomeActive('homeActive');setMenuActive("");}}>
+        <div className={`icon ${homeActive}`}><Link to = '/friendsKitchen/home' onClick={() => { setHomeActive('homeActive');setMenuActive("");}}>
           <HomeIcon/> 
           <li>Home</li>
           </Link>
