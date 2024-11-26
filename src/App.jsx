@@ -21,7 +21,7 @@ function App() {
       <h1 style={{textAlign: 'center',padding: '10PX 0 0 0',color: 'tomato'}}>FRIEND'S KITCHEN</h1>
       <Routes>
         <Route path='/home' element={<Home/>}></Route>
-        <Route path='/' element={<Navigator to = '/home'></Navigator>}></Route>
+        <Route path='/' element={<Home/>}></Route>
         <Route path='/weekend' element={<WeekendSpecial/>}></Route>
         <Route path='/burger' element={<MenuList image={burger} list={BurgerObject} name={'Burger'}/>}></Route>
         <Route path='/pizza' element={<MenuList image={pizza} list={BurgerObject} name={'Pizza'}/>}></Route>
