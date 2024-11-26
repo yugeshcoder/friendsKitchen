@@ -29,7 +29,7 @@ function Header() {
   }, [size]);
 
   return (
-    <Link to="/weekend">
+    <Link to="/friendsKitchen/weekend">
     <div className="header">
       <div className={`foodMatedata ${slideClass}`}>
         <h1 className='topic'>Weekend Special</h1>

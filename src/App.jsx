@@ -19,7 +19,7 @@ import RiceObject from '../public/burgerList/rice'
 
 function App() {
   return (
-    <div>
+    <div className='main'>
       <h1 style={{textAlign: 'center',padding: '10PX 0 0 0',color: 'tomato'}}>FRIEND'S KITCHEN</h1>
       <Routes>
         <Route path='/friendsKitchen/home' element={<Home/>}></Route>
