@@ -13,6 +13,8 @@ import wrap from '../public/categories/image/wrap.jpg'
 import momos from '../public/categories/image/momos.jpg'
 import momosObject from '../public/burgerList/momos'
 import ExtraItems from './components/ExtraItems'
+import rice from './components/menuComponent/extraItems/rice.jpg'
+import RiceObject from '../public/burgerList/rice'
 
 
 function App() {
@@ -28,6 +30,7 @@ function App() {
         <Route path='/friendsKitchen/sandwich' element={<MenuList image={sandwich} list={BurgerObject} name={'3 Layer Sandwich'}/>}></Route>
         <Route path='/friendsKitchen/wrap' element={<MenuList image={wrap} list={BurgerObject} name={'Wrap'}/>}></Route>
         <Route path='/friendsKitchen/momos' element={<MenuList image={momos} list={momosObject} name={'Momos'}/>}></Route>
+        <Route path='/friendsKitchen/rice' element={<MenuList image={rice} list={RiceObject} name={'Fried Rice'}/>}></Route>
       </Routes>
       <ExtraItems/>
       <Nav/>

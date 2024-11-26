@@ -3,6 +3,7 @@ import momos from './image/momos.jpg'
 import pizza from './image/pizza.jpg'
 import sandwich from './image/sandwich.jpg'
 import wrap from './image/wrap.jpg'
+import rice from './image/rice.jpg'
 
 const categoriesObject = [
   {
@@ -29,6 +30,11 @@ const categoriesObject = [
   name : 'Momos & others',
   image : momos,
   path : '/friendsKitchen/momos'
+ },
+ {
+  name : 'Fried Rice',
+  image : rice,
+  path : '/friendsKitchen/rice'
  }
 ];
 
