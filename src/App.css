@@ -13,7 +13,7 @@ a{
  color: black;
 }
 
-.main{
+.flex{
   display: flex;
   justify-content: center;
 }
